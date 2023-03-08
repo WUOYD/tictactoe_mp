@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>TicTacToe</title>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+  </head>
+  <body>
+    <h1>TicTacToe</h1>
+    <div id="grid">
+      <div class="tiles" id="tile0">
+        <div class="forms" id="form0"></div>
+      </div>
+      <div class="tiles" id="tile1">
+        <div class="forms" id="form1"></div>
+      </div>
+      <div class="tiles" id="tile2">
+        <div class="forms" id="form2"></div>
+      </div>
+      <div class="tiles" id="tile3">
+        <div class="forms" id="form3"></div>
+      </div>
+      <div class="tiles" id="tile4">
+        <div class="forms" id="form4"></div>
+      </div>
+      <div class="tiles" id="tile5">
+        <div class="forms" id="form5"></div>
+      </div>
+      <div class="tiles" id="tile6">
+        <div class="forms" id="form6"></div>
+      </div>
+      <div class="tiles" id="tile7">
+        <div class="forms" id="form7"></div>
+      </div>
+      <div class="tiles" id="tile8">
+        <div class="forms" id="form8"></div>
+      </div>
+      <div id="restart" style="visibility: hidden;">
+        <p id="winner"></p>
+        <button id="restartButton">RESTART</button>
+      </div>
+    </div>
+    <script src="/client.js"></script>
+  </body>
+</html>
