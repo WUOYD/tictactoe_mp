@@ -38,10 +38,18 @@
       <div class="tiles" id="tile8">
         <div class="forms" id="form8"></div>
       </div>
-      <div id="restart" style="visibility: hidden;">
+      <div class="restart hidden">
         <p id="winner"></p>
         <button id="restartButton">RESTART</button>
       </div>
+      <div class="start">
+        <p>Waiting for opponent!</p>
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+      </div>
+    </div>
+    <div class="status hidden">
+      <div class="hidden myTurn">It's your turn</div>
+      <div class="wait">Wait for the other player</div>
     </div>
     <script src="/client.js"></script>
   </body>
