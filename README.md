@@ -13,11 +13,11 @@ Requirements: Node.js
 ## Architecture diagram
 ```mermaid
 graph  TD
-node.js --> Server
-express.js --> Server
-socket.io --> Servers
-Server -->Client1
-Server -->Client2
+node.js --> Server;
+express.js --> Server;
+socket.io --> Servers;
+Server -->Client1;
+Server -->Client2;
 
 ## Sequence diagram
 ```mermaid
