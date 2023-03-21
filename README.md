@@ -32,7 +32,7 @@ node.js --> Server;
 
 express.js --> Server;
 
-socket.io --> Servers;
+socket.io --> Server;
 
 Server -->Client1;
 
